@@ -1,11 +1,11 @@
 {
+  "engines": {
+    "node": "18.x"
+  },
   "name": "api-e-mail",
   "version": "1.0.0",
   "description": "Esta é uma api para o envio de emails",
   "main": "servidor.js",
-  "engines": {
-    "node": "18.x "
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node servidor.js"
