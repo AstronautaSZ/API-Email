@@ -4,7 +4,7 @@
     "builds": [
         {
             "src": "./servirdor.js",
-            "use": "@vercel/node"
+            "use": "@now/node"
         }
     ],
     "routes": [
