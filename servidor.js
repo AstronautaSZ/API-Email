@@ -26,7 +26,7 @@ app.post("/send", async (req,res) => {
   try {
     const info = await sendTestEmail(req.body);
     res.send(info);
-    res.write('enviado')
+   
   } catch (error) {
     res.send(error);
   }
