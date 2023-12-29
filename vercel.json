@@ -1,16 +1,15 @@
-
 {
-    "version": 2,
-    "builds": [
+    "version":2,
+    "builds":[
         {
-            "src": "./servirdor.js",
-            "use": "@now/node"
+        "src":"./servidor.js",
+        "use":"@vercel/node"
         }
     ],
-    "routes": [
+    "routes":[
         {
-            "src": "/(.*)",
-            "dest": "/servidor"
+            "src":"/(.*)",
+            "dest":"/servidor.js"
         }
     ]
-  }
+}
