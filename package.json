@@ -4,7 +4,7 @@
   "description": "Esta é uma api para o envio de emails",
   "main": "servidor.js",
   "engines": {
-    "node": "18x"
+    "node": "18.x "
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
