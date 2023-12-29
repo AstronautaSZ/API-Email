@@ -17,7 +17,7 @@ const sendTestEmail=(DadosEmail)=>{
 transporter.sendMail({
     from:process.env.EMAIL,
     to:process.env.EMAIL,
-    subject:`Novo Email de:${DadosEmail.email_clinent}`,
+    subject:`Novo E-mail de:${DadosEmail.email_clinent}`,
     text:``,
     html:`<h2>${DadosEmail.nome}</h2>   
       <p>${DadosEmail.ideia}</p>`
