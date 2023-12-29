@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "description": "Esta é uma api para o envio de emails",
   "main": "servidor.js",
+  "engines": {
+    "node": "18x"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node servidor.js"
   },
   "keywords": [
     "Email",

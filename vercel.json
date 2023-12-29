@@ -1,10 +1,17 @@
 {
     "version": 2,
-      
-    "env": {
-        "SENHA": "xlga zukf kjff sjhk",
-        "EMAIL": "sabalovieira@gmail.com"
-      }
-   
+    "builds":[
+        {
+            "src":"./servidor.js",
+            "use":"@vercel/node"
+        }
+    ],
+    "routes":[
+        {
+            "src":"/(.*)",
+            "use":"/"
+        }
+    ]     
+
       
   }
