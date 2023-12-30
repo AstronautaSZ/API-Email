@@ -13,8 +13,8 @@ let transporter=nodemailer.createTransport({
     auth:{
         user:process.env.EMAIL,
         pass:process.env.SENHA }});
-const sendTestEmail=(DadosEmail)=>{
-transporter.sendMail({
+const sendTestEmail=async(DadosEmail)=>{
+await transporter.sendMail({
     from:process.env.EMAIL,
     to:process.env.EMAIL,
     subject:`Novo E-mail de:${DadosEmail.email_clinent}`,
