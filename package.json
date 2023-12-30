@@ -1,6 +1,6 @@
 {
   "engines": {
-    "node": "18.x"
+    "node": "20.x"
   },
   "name": "api-e-mail",
   "version": "1.0.0",
